@@ -39,6 +39,7 @@ from .file_system_toolkits.replace_file_content import (
 from .file_system_toolkits.view_file import register_tools as register_view_file
 from .file_system_toolkits.write_to_file import register_tools as register_write_to_file
 from .hubspot_tool import register_tools as register_hubspot
+from .json_tool import register_tools as register_json
 from .pdf_read_tool import register_tools as register_pdf_read
 from .web_scrape_tool import register_tools as register_web_scrape
 from .web_search_tool import register_tools as register_web_search
@@ -81,6 +82,7 @@ def register_all_tools(
     register_grep_search(mcp)
     register_execute_command(mcp)
     register_csv(mcp)
+    register_json(mcp)
 
     return [
         "example_tool",
@@ -114,6 +116,11 @@ def register_all_tools(
         "hubspot_get_deal",
         "hubspot_create_deal",
         "hubspot_update_deal",
+        "json_validate",
+        "json_transform",
+        "json_merge",
+        "json_diff",
+        "json_format",
     ]
 
 
