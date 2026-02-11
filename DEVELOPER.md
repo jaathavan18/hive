@@ -207,7 +207,6 @@ hive/                                    # Repository root
 ├── README.md                            # Project overview
 ├── DEVELOPER.md                         # This file
 ├── CONTRIBUTING.md                      # Contribution guidelines
-├── CHANGELOG.md                         # Version history
 ├── ROADMAP.md                           # Product roadmap
 ├── LICENSE                              # Apache 2.0 License
 ├── CODE_OF_CONDUCT.md                   # Community guidelines
